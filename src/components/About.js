@@ -1,9 +1,8 @@
 import React from "react"
 
 function About({
+    text,
     image = "https://via.placeholder.com/215",
-    text
-
 }){
     return(
         <aside>

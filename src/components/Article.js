@@ -1,6 +1,6 @@
 import React from "react"
 
-function ArticleList(
+function Article(
     {
         title,
         date = "January 1, 1970",
@@ -15,4 +15,4 @@ function ArticleList(
     )
 }
 
-export default ArticleList
+export default Article
