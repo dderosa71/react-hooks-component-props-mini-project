@@ -7,7 +7,7 @@ function About({
     return(
         <aside>
             <img src={image} alt="blog logo"></img>
-            <p>About this blog</p>
+            <p>{text}</p>
         </aside>
     )
 }
